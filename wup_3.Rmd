@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
 author: "Christopher Mojarro"
-date: "Fall 202"
+date: "Fall 2021"
 output: html_document
 ---
 
@@ -36,6 +36,12 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 ```
 
 ## Numerical Summarys 
+
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+
 
 ## Inferential Tests
 
