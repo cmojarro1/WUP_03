@@ -71,4 +71,10 @@ the front-back and the back middle are different
 
 ## Conclusions
 
+In conclusion we found three different categories. We also had to use anova 
+to determine the amount of drinks per week the rows people sat in.The back 
+row drinks 8.555556 more drinks than the middle row, drinking only 3.3 
+drinks per week. The front row drinks 1.7 per week.It is to assume that they
+aren't all drinking the same amount. 
+
 
