@@ -51,6 +51,15 @@ It is to assume that they aren't all drinking the same amount.
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+The P value represents the chances of getting a result as we just obtained if the 
+null hypothesis is true. Since the result is so small I reject the null hypothesis.
+
+
 ## Conclusions
 
 
